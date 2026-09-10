@@ -1,0 +1,1247 @@
+{
+  "generated_at": "2026-09-10T14:55:44.843Z",
+  "providers": [
+    {
+      "provider": "Anthropic",
+      "slug": "anthropic",
+      "category": "llm",
+      "homepage": "https://anthropic.com",
+      "pricing_url": "https://www.anthropic.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "claude-3-haiku",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 1.25,
+          "cached_input": 0.03
+        },
+        {
+          "item": "claude-haiku-4.5",
+          "unit": "1M tokens",
+          "input": 1,
+          "output": 5,
+          "cached_input": 0.1
+        },
+        {
+          "item": "claude-sonnet-5",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.2
+        },
+        {
+          "item": "claude-sonnet-4.6",
+          "unit": "1M tokens",
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        {
+          "item": "claude-sonnet-4.5",
+          "unit": "1M tokens",
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        {
+          "item": "claude-sonnet-4",
+          "unit": "1M tokens",
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        {
+          "item": "claude-opus-5",
+          "unit": "1M tokens",
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        {
+          "item": "claude-opus-4.8",
+          "unit": "1M tokens",
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        {
+          "item": "claude-opus-4.7",
+          "unit": "1M tokens",
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        {
+          "item": "claude-opus-4.6",
+          "unit": "1M tokens",
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        {
+          "item": "claude-opus-4.5",
+          "unit": "1M tokens",
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        {
+          "item": "claude-fable-5.1",
+          "unit": "1M tokens",
+          "input": 10,
+          "output": 50,
+          "cached_input": 0.25
+        },
+        {
+          "item": "claude-fable-5",
+          "unit": "1M tokens",
+          "input": 10,
+          "output": 50,
+          "cached_input": 1
+        },
+        {
+          "item": "claude-opus-4.1",
+          "unit": "1M tokens",
+          "input": 15,
+          "output": 75,
+          "cached_input": 1.5
+        },
+        {
+          "item": "claude-opus-4",
+          "unit": "1M tokens",
+          "input": 15,
+          "output": 75,
+          "cached_input": 1.5
+        }
+      ]
+    },
+    {
+      "provider": "Cohere",
+      "slug": "cohere",
+      "category": "llm",
+      "homepage": "https://cohere.com",
+      "pricing_url": "https://cohere.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "command-r7b-12-2024",
+          "unit": "1M tokens",
+          "input": 0.0375,
+          "output": 0.15
+        },
+        {
+          "item": "command-r-08-2024",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6
+        },
+        {
+          "item": "command-a",
+          "unit": "1M tokens",
+          "input": 2.5,
+          "output": 10
+        },
+        {
+          "item": "command-r-plus-08-2024",
+          "unit": "1M tokens",
+          "input": 2.5,
+          "output": 10
+        }
+      ]
+    },
+    {
+      "provider": "DeepSeek",
+      "slug": "deepseek",
+      "category": "llm",
+      "homepage": "https://deepseek.com",
+      "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "deepseek-v4-flash-0731",
+          "unit": "1M tokens",
+          "input": 0.065,
+          "output": 0.18,
+          "cached_input": 0.016
+        },
+        {
+          "item": "deepseek-v4-flash",
+          "unit": "1M tokens",
+          "input": 0.0886,
+          "output": 0.1772,
+          "cached_input": 0.0177
+        },
+        {
+          "item": "deepseek-v4.1-flash",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.003
+        },
+        {
+          "item": "deepseek-v4-flash-vision-exp",
+          "unit": "1M tokens",
+          "input": 0.22,
+          "output": 0.66,
+          "cached_input": 0.007
+        },
+        {
+          "item": "deepseek-chat-v3.1",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 0.95,
+          "cached_input": 0.13
+        },
+        {
+          "item": "deepseek-chat",
+          "unit": "1M tokens",
+          "input": 0.2574,
+          "output": 1.0287
+        },
+        {
+          "item": "deepseek-v3.2",
+          "unit": "1M tokens",
+          "input": 0.269,
+          "output": 0.4,
+          "cached_input": 0.1345
+        },
+        {
+          "item": "deepseek-v3.2-exp",
+          "unit": "1M tokens",
+          "input": 0.27,
+          "output": 0.41
+        },
+        {
+          "item": "deepseek-v3.1-terminus",
+          "unit": "1M tokens",
+          "input": 0.27,
+          "output": 1,
+          "cached_input": 0.135
+        },
+        {
+          "item": "deepseek-chat-v3-0324",
+          "unit": "1M tokens",
+          "input": 0.29,
+          "output": 1.14,
+          "cached_input": 0.11
+        },
+        {
+          "item": "deepseek-r1-0528",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 2.15,
+          "cached_input": 0.35
+        },
+        {
+          "item": "deepseek-v4-pro-0813",
+          "unit": "1M tokens",
+          "input": 0.5795,
+          "output": 1.7384,
+          "cached_input": 0.0184
+        },
+        {
+          "item": "deepseek-r1",
+          "unit": "1M tokens",
+          "input": 0.7,
+          "output": 2.5
+        },
+        {
+          "item": "deepseek-r1-distill-llama-70b",
+          "unit": "1M tokens",
+          "input": 0.8,
+          "output": 0.8
+        },
+        {
+          "item": "deepseek-v4-pro",
+          "unit": "1M tokens",
+          "input": 0.9553,
+          "output": 1.9105,
+          "cached_input": 0.0796
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "slug": "google-gemini",
+      "category": "llm",
+      "homepage": "https://ai.google.dev",
+      "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "gemma-3-4b-it",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.1
+        },
+        {
+          "item": "gemma-3-12b-it",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.15
+        },
+        {
+          "item": "gemma-4-26b-a4b-it",
+          "unit": "1M tokens",
+          "input": 0.07,
+          "output": 0.34
+        },
+        {
+          "item": "gemma-3-27b-it",
+          "unit": "1M tokens",
+          "input": 0.08,
+          "output": 0.45,
+          "cached_input": 0.04
+        },
+        {
+          "item": "gemma-4-31b-it",
+          "unit": "1M tokens",
+          "input": 0.09,
+          "output": 0.34,
+          "cached_input": 0.05
+        },
+        {
+          "item": "gemini-2.5-flash-lite",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.4,
+          "cached_input": 0.01
+        },
+        {
+          "item": "gemini-3.1-flash-lite-image",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 1.5
+        },
+        {
+          "item": "gemini-3.1-flash-lite",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 1.5,
+          "cached_input": 0.025
+        },
+        {
+          "item": "gemini-3.1-flash-lite-preview",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 1.5,
+          "cached_input": 0.025
+        },
+        {
+          "item": "gemini-3.5-flash-lite",
+          "unit": "1M tokens",
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.03
+        },
+        {
+          "item": "gemini-2.5-flash-image",
+          "unit": "1M tokens",
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.03
+        },
+        {
+          "item": "gemini-2.5-flash",
+          "unit": "1M tokens",
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.03
+        },
+        {
+          "item": "gemini-3.1-flash-image",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 3
+        },
+        {
+          "item": "gemini-3.1-flash-image-preview",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 3
+        },
+        {
+          "item": "gemini-3-flash-preview",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 3,
+          "cached_input": 0.05
+        },
+        {
+          "item": "gemma-2-27b-it",
+          "unit": "1M tokens",
+          "input": 0.65,
+          "output": 0.65
+        },
+        {
+          "item": "gemini-3.8-flash",
+          "unit": "1M tokens",
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gemini-3.7-flash",
+          "unit": "1M tokens",
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gemini-3.6-flash",
+          "unit": "1M tokens",
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gemini-2.5-pro",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gemini-2.5-pro-preview",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gemini-2.5-pro-preview-05-06",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gemini-3.5-flash",
+          "unit": "1M tokens",
+          "input": 1.5,
+          "output": 9,
+          "cached_input": 0.15
+        },
+        {
+          "item": "gemini-3-pro-image",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        {
+          "item": "gemini-3.1-pro-preview-customtools",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        {
+          "item": "gemini-3.1-pro-preview",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        {
+          "item": "gemini-3-pro-image-preview",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        }
+      ]
+    },
+    {
+      "provider": "Meta Llama",
+      "slug": "meta-llama",
+      "category": "llm",
+      "homepage": "https://llama.com",
+      "pricing_url": "https://www.llama.com/",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "llama-3.2-1b-instruct",
+          "unit": "1M tokens",
+          "input": 0.027,
+          "output": 0.201
+        },
+        {
+          "item": "llama-3.2-3b-instruct",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.33
+        },
+        {
+          "item": "llama-3.1-8b-instruct",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.08,
+          "cached_input": 0.025
+        },
+        {
+          "item": "llama-4-scout",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.3
+        },
+        {
+          "item": "llama-3.3-70b-instruct",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.32
+        },
+        {
+          "item": "llama-guard-4-12b",
+          "unit": "1M tokens",
+          "input": 0.18,
+          "output": 0.18
+        },
+        {
+          "item": "llama-4-maverick",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 0.696
+        },
+        {
+          "item": "llama-3.1-70b-instruct",
+          "unit": "1M tokens",
+          "input": 0.4,
+          "output": 0.4
+        }
+      ]
+    },
+    {
+      "provider": "Mistral",
+      "slug": "mistral",
+      "category": "llm",
+      "homepage": "https://mistral.ai",
+      "pricing_url": "https://mistral.ai/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "mistral-nemo",
+          "unit": "1M tokens",
+          "input": 0.019,
+          "output": 0.03
+        },
+        {
+          "item": "mistral-small-24b-instruct-2501",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.08
+        },
+        {
+          "item": "mistral-small-3.2-24b-instruct",
+          "unit": "1M tokens",
+          "input": 0.075,
+          "output": 0.2
+        },
+        {
+          "item": "ministral-3b-2512",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.1,
+          "cached_input": 0.01
+        },
+        {
+          "item": "voxtral-small-24b-2507",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.3,
+          "cached_input": 0.01
+        },
+        {
+          "item": "mistral-small-2603",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.015
+        },
+        {
+          "item": "ministral-8b-2512",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.15,
+          "cached_input": 0.015
+        },
+        {
+          "item": "ministral-14b-2512",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 0.2,
+          "cached_input": 0.02
+        },
+        {
+          "item": "mistral-saba",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 0.6,
+          "cached_input": 0.02
+        },
+        {
+          "item": "codestral-2508",
+          "unit": "1M tokens",
+          "input": 0.3,
+          "output": 0.9,
+          "cached_input": 0.03
+        },
+        {
+          "item": "mistral-small-3.1-24b-instruct",
+          "unit": "1M tokens",
+          "input": 0.351,
+          "output": 0.555
+        },
+        {
+          "item": "devstral-2512",
+          "unit": "1M tokens",
+          "input": 0.4,
+          "output": 2,
+          "cached_input": 0.04
+        },
+        {
+          "item": "mistral-medium-3.1",
+          "unit": "1M tokens",
+          "input": 0.4,
+          "output": 2,
+          "cached_input": 0.04
+        },
+        {
+          "item": "mistral-medium-3",
+          "unit": "1M tokens",
+          "input": 0.4,
+          "output": 2,
+          "cached_input": 0.04
+        },
+        {
+          "item": "mistral-large-2512",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 1.5,
+          "cached_input": 0.05
+        },
+        {
+          "item": "mistral-medium-3-5",
+          "unit": "1M tokens",
+          "input": 1.5,
+          "output": 7.5
+        },
+        {
+          "item": "mistral-large-2407",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.2
+        },
+        {
+          "item": "mixtral-8x22b-instruct",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.2
+        },
+        {
+          "item": "mistral-large",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.2
+        }
+      ]
+    },
+    {
+      "provider": "Moonshot AI",
+      "slug": "moonshot-ai",
+      "category": "llm",
+      "homepage": "https://moonshot.ai",
+      "pricing_url": "https://platform.moonshot.ai/docs/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "kimi-k2.5",
+          "unit": "1M tokens",
+          "input": 0.45,
+          "output": 2.25,
+          "cached_input": 0.07
+        },
+        {
+          "item": "kimi-k2",
+          "unit": "1M tokens",
+          "input": 0.57,
+          "output": 2.3
+        },
+        {
+          "item": "kimi-k2-thinking",
+          "unit": "1M tokens",
+          "input": 0.6,
+          "output": 2.5,
+          "cached_input": 0.15
+        },
+        {
+          "item": "kimi-k2-0905",
+          "unit": "1M tokens",
+          "input": 0.6,
+          "output": 2.5
+        },
+        {
+          "item": "kimi-k2.7-code",
+          "unit": "1M tokens",
+          "input": 0.71,
+          "output": 3.5,
+          "cached_input": 0.15
+        },
+        {
+          "item": "kimi-k2.6",
+          "unit": "1M tokens",
+          "input": 0.95,
+          "output": 4,
+          "cached_input": 0.16
+        },
+        {
+          "item": "kimi-k3",
+          "unit": "1M tokens",
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        }
+      ]
+    },
+    {
+      "provider": "OpenAI",
+      "slug": "openai",
+      "category": "llm",
+      "homepage": "https://openai.com",
+      "pricing_url": "https://openai.com/api/pricing/",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "gpt-oss-20b",
+          "unit": "1M tokens",
+          "input": 0.03,
+          "output": 0.13,
+          "cached_input": 0.03
+        },
+        {
+          "item": "gpt-oss-120b",
+          "unit": "1M tokens",
+          "input": 0.037,
+          "output": 0.17
+        },
+        {
+          "item": "gpt-5-nano",
+          "unit": "1M tokens",
+          "input": 0.05,
+          "output": 0.4,
+          "cached_input": 0.005
+        },
+        {
+          "item": "gpt-oss-safeguard-20b",
+          "unit": "1M tokens",
+          "input": 0.075,
+          "output": 0.3,
+          "cached_input": 0.0375
+        },
+        {
+          "item": "gpt-4.1-nano",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.4,
+          "cached_input": 0.025
+        },
+        {
+          "item": "gpt-4o-mini",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gpt-4o-mini-2024-07-18",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gpt-5.6-luna-pro",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 1.2,
+          "cached_input": 0.02
+        },
+        {
+          "item": "gpt-5.6-luna",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 1.2,
+          "cached_input": 0.02
+        },
+        {
+          "item": "gpt-5.4-nano",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 1.25,
+          "cached_input": 0.02
+        },
+        {
+          "item": "gpt-5.1-codex-mini",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.03
+        },
+        {
+          "item": "gpt-5-mini",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.025
+        },
+        {
+          "item": "gpt-4.1-mini",
+          "unit": "1M tokens",
+          "input": 0.4,
+          "output": 1.6,
+          "cached_input": 0.1
+        },
+        {
+          "item": "gpt-3.5-turbo",
+          "unit": "1M tokens",
+          "input": 0.5,
+          "output": 1.5
+        },
+        {
+          "item": "gpt-audio-mini",
+          "unit": "1M tokens",
+          "input": 0.6,
+          "output": 2.4
+        },
+        {
+          "item": "gpt-5.4-mini",
+          "unit": "1M tokens",
+          "input": 0.75,
+          "output": 4.5,
+          "cached_input": 0.075
+        },
+        {
+          "item": "gpt-3.5-turbo-0613",
+          "unit": "1M tokens",
+          "input": 1,
+          "output": 2
+        },
+        {
+          "item": "o4-mini-high",
+          "unit": "1M tokens",
+          "input": 1.1,
+          "output": 4.4,
+          "cached_input": 0.275
+        },
+        {
+          "item": "o4-mini",
+          "unit": "1M tokens",
+          "input": 1.1,
+          "output": 4.4,
+          "cached_input": 0.275
+        },
+        {
+          "item": "o3-mini-high",
+          "unit": "1M tokens",
+          "input": 1.1,
+          "output": 4.4,
+          "cached_input": 0.55
+        },
+        {
+          "item": "o3-mini",
+          "unit": "1M tokens",
+          "input": 1.1,
+          "output": 4.4,
+          "cached_input": 0.55
+        },
+        {
+          "item": "gpt-5.1-codex-max",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gpt-5.1",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gpt-5.1-codex",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.13
+        },
+        {
+          "item": "gpt-5",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        {
+          "item": "gpt-3.5-turbo-instruct",
+          "unit": "1M tokens",
+          "input": 1.5,
+          "output": 2
+        },
+        {
+          "item": "gpt-5.3-codex",
+          "unit": "1M tokens",
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        {
+          "item": "gpt-5.2-codex",
+          "unit": "1M tokens",
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        {
+          "item": "gpt-5.2-chat",
+          "unit": "1M tokens",
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        {
+          "item": "gpt-5.2",
+          "unit": "1M tokens",
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        }
+      ]
+    },
+    {
+      "provider": "Qwen (Alibaba)",
+      "slug": "qwen-alibaba",
+      "category": "llm",
+      "homepage": "https://qwen.ai",
+      "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "qwen3.7-flash",
+          "unit": "1M tokens",
+          "input": 0.03,
+          "output": 0.13,
+          "cached_input": 0.006
+        },
+        {
+          "item": "qwen3-30b-a3b-instruct-2507",
+          "unit": "1M tokens",
+          "input": 0.0481,
+          "output": 0.193
+        },
+        {
+          "item": "qwen3.5-flash-02-23",
+          "unit": "1M tokens",
+          "input": 0.065,
+          "output": 0.26
+        },
+        {
+          "item": "qwen3-coder-30b-a3b-instruct",
+          "unit": "1M tokens",
+          "input": 0.07,
+          "output": 0.28
+        },
+        {
+          "item": "qwen3-32b",
+          "unit": "1M tokens",
+          "input": 0.08,
+          "output": 0.28
+        },
+        {
+          "item": "qwen3-next-80b-a3b-instruct",
+          "unit": "1M tokens",
+          "input": 0.09,
+          "output": 1.1
+        },
+        {
+          "item": "qwen3.6-35b-a3b",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.9,
+          "cached_input": 0.05
+        },
+        {
+          "item": "qwen3.5-9b",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.15
+        },
+        {
+          "item": "qwen-2.5-7b-instruct",
+          "unit": "1M tokens",
+          "input": 0.1,
+          "output": 0.2
+        },
+        {
+          "item": "qwen3-vl-32b-instruct",
+          "unit": "1M tokens",
+          "input": 0.104,
+          "output": 0.416
+        },
+        {
+          "item": "qwen3-vl-8b-instruct",
+          "unit": "1M tokens",
+          "input": 0.117,
+          "output": 0.455
+        },
+        {
+          "item": "qwen3-8b",
+          "unit": "1M tokens",
+          "input": 0.117,
+          "output": 0.455
+        },
+        {
+          "item": "qwen3-coder-next",
+          "unit": "1M tokens",
+          "input": 0.12,
+          "output": 0.8,
+          "cached_input": 0.07
+        },
+        {
+          "item": "qwen3-30b-a3b",
+          "unit": "1M tokens",
+          "input": 0.12,
+          "output": 0.5
+        },
+        {
+          "item": "qwen3.8-flash",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.47,
+          "cached_input": 0.016
+        },
+        {
+          "item": "qwen3-vl-30b-a3b-instruct",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6
+        },
+        {
+          "item": "qwen3-next-80b-a3b-thinking",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 1.2
+        },
+        {
+          "item": "qwen3-vl-8b-thinking",
+          "unit": "1M tokens",
+          "input": 0.18,
+          "output": 2.1
+        },
+        {
+          "item": "qwen3.6-flash",
+          "unit": "1M tokens",
+          "input": 0.1875,
+          "output": 1.125
+        },
+        {
+          "item": "qwen3.5-27b",
+          "unit": "1M tokens",
+          "input": 0.195,
+          "output": 1.56
+        },
+        {
+          "item": "qwen3-coder-flash",
+          "unit": "1M tokens",
+          "input": 0.195,
+          "output": 0.975,
+          "cached_input": 0.039
+        },
+        {
+          "item": "qwen3-vl-30b-a3b-thinking",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 2.4
+        },
+        {
+          "item": "qwen3-30b-a3b-thinking-2507",
+          "unit": "1M tokens",
+          "input": 0.2,
+          "output": 2.4
+        },
+        {
+          "item": "qwen3-vl-235b-a22b-instruct",
+          "unit": "1M tokens",
+          "input": 0.21,
+          "output": 1.9,
+          "cached_input": 0.1
+        },
+        {
+          "item": "qwen3-235b-a22b-2507",
+          "unit": "1M tokens",
+          "input": 0.22,
+          "output": 0.88
+        },
+        {
+          "item": "qwen3-14b",
+          "unit": "1M tokens",
+          "input": 0.2275,
+          "output": 0.91
+        },
+        {
+          "item": "qwen3-235b-a22b-thinking-2507",
+          "unit": "1M tokens",
+          "input": 0.23,
+          "output": 2.3
+        },
+        {
+          "item": "qwen3.5-122b-a10b",
+          "unit": "1M tokens",
+          "input": 0.26,
+          "output": 2.08
+        },
+        {
+          "item": "qwen3.5-plus-02-15",
+          "unit": "1M tokens",
+          "input": 0.26,
+          "output": 1.56
+        },
+        {
+          "item": "qwen-plus-2025-07-28",
+          "unit": "1M tokens",
+          "input": 0.26,
+          "output": 0.78
+        }
+      ]
+    },
+    {
+      "provider": "xAI",
+      "slug": "xai",
+      "category": "llm",
+      "homepage": "https://x.ai",
+      "pricing_url": "https://docs.x.ai/docs/models",
+      "currency": "USD",
+      "verified_at": "2026-09-10",
+      "source": "openrouter",
+      "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+      "rates": [
+        {
+          "item": "grok-build-0.1",
+          "unit": "1M tokens",
+          "input": 1,
+          "output": 2,
+          "cached_input": 0.2
+        },
+        {
+          "item": "grok-4.3",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        {
+          "item": "grok-4.20-multi-agent",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        {
+          "item": "grok-4.20",
+          "unit": "1M tokens",
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        {
+          "item": "grok-4.6",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.5
+        },
+        {
+          "item": "grok-4.5",
+          "unit": "1M tokens",
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.3
+        }
+      ]
+    },
+    {
+      "provider": "Resend",
+      "slug": "resend",
+      "category": "messaging",
+      "homepage": "https://resend.com",
+      "pricing_url": "https://resend.com/pricing",
+      "currency": "USD",
+      "verified_at": null,
+      "source": "manual",
+      "notes": "SEED STRUCTURE — verify against pricing_url and set verified_at before use. Resend prices by monthly send volume on tiers; derive an effective $/1K emails for the tier a typical reader would land on and note the tier.",
+      "rates": [
+        {
+          "item": "Transactional email (Pro tier)",
+          "unit": "1K emails",
+          "rate": 0,
+          "notes": "effective rate within the tier's included volume"
+        }
+      ]
+    },
+    {
+      "provider": "ElevenLabs",
+      "slug": "elevenlabs",
+      "category": "speech",
+      "homepage": "https://elevenlabs.io",
+      "pricing_url": "https://elevenlabs.io/pricing/api",
+      "currency": "USD",
+      "verified_at": null,
+      "source": "manual",
+      "notes": "SEED STRUCTURE — numbers below are placeholders. Verify every figure against pricing_url and set verified_at before this provider is used in a published comparison.",
+      "rates": [
+        {
+          "item": "Text to Speech (Flash v2.5)",
+          "unit": "1K characters",
+          "rate": 0,
+          "notes": "credit-based; convert to $/1K chars at the plan's credit rate"
+        },
+        {
+          "item": "Speech to Text (Scribe)",
+          "unit": "hour",
+          "rate": 0
+        }
+      ]
+    }
+  ]
+}

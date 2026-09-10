@@ -1,0 +1,37 @@
+{
+  "provider": "Cohere",
+  "slug": "cohere",
+  "category": "llm",
+  "homepage": "https://cohere.com",
+  "pricing_url": "https://cohere.com/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "command-r7b-12-2024",
+      "unit": "1M tokens",
+      "input": 0.0375,
+      "output": 0.15
+    },
+    {
+      "item": "command-r-08-2024",
+      "unit": "1M tokens",
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
+      "item": "command-a",
+      "unit": "1M tokens",
+      "input": 2.5,
+      "output": 10
+    },
+    {
+      "item": "command-r-plus-08-2024",
+      "unit": "1M tokens",
+      "input": 2.5,
+      "output": 10
+    }
+  ]
+}

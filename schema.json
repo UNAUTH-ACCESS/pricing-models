@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "API pricing provider file",
+  "type": "object",
+  "required": ["provider", "slug", "category", "pricing_url", "currency", "verified_at", "source", "rates"],
+  "properties": {
+    "provider":    { "type": "string", "description": "Display name, e.g. \"OpenAI\"" },
+    "slug":        { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "category":    { "enum": ["llm", "speech", "messaging", "maps", "vectors"] },
+    "homepage":    { "type": "string", "format": "uri" },
+    "pricing_url": { "type": "string", "format": "uri", "description": "The page a human checks to re-verify" },
+    "currency":    { "type": "string", "default": "USD" },
+    "verified_at": { "type": "string", "format": "date", "description": "Day a human last confirmed these numbers against pricing_url" },
+    "source":      { "type": "string", "description": "openrouter | manual | parser:<name>" },
+    "notes":       { "type": "string" },
+    "rates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item", "unit"],
+        "properties": {
+          "item":  { "type": "string", "description": "Model / endpoint / tier name" },
+          "unit":  { "type": "string", "description": "e.g. \"1M tokens\", \"minute\", \"1K requests\", \"message\", \"GB/mo\"" },
+          "input":  { "type": "number", "description": "LLM: input/prompt rate" },
+          "output": { "type": "number", "description": "LLM: output/completion rate" },
+          "cached_input": { "type": "number" },
+          "rate":  { "type": "number", "description": "Single-dimension categories (speech, maps, messaging, vectors)" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

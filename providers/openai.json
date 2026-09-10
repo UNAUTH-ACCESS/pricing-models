@@ -1,0 +1,218 @@
+{
+  "provider": "OpenAI",
+  "slug": "openai",
+  "category": "llm",
+  "homepage": "https://openai.com",
+  "pricing_url": "https://openai.com/api/pricing/",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "gpt-oss-20b",
+      "unit": "1M tokens",
+      "input": 0.03,
+      "output": 0.13,
+      "cached_input": 0.03
+    },
+    {
+      "item": "gpt-oss-120b",
+      "unit": "1M tokens",
+      "input": 0.037,
+      "output": 0.17
+    },
+    {
+      "item": "gpt-5-nano",
+      "unit": "1M tokens",
+      "input": 0.05,
+      "output": 0.4,
+      "cached_input": 0.005
+    },
+    {
+      "item": "gpt-oss-safeguard-20b",
+      "unit": "1M tokens",
+      "input": 0.075,
+      "output": 0.3,
+      "cached_input": 0.0375
+    },
+    {
+      "item": "gpt-4.1-nano",
+      "unit": "1M tokens",
+      "input": 0.1,
+      "output": 0.4,
+      "cached_input": 0.025
+    },
+    {
+      "item": "gpt-4o-mini",
+      "unit": "1M tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gpt-4o-mini-2024-07-18",
+      "unit": "1M tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gpt-5.6-luna-pro",
+      "unit": "1M tokens",
+      "input": 0.2,
+      "output": 1.2,
+      "cached_input": 0.02
+    },
+    {
+      "item": "gpt-5.6-luna",
+      "unit": "1M tokens",
+      "input": 0.2,
+      "output": 1.2,
+      "cached_input": 0.02
+    },
+    {
+      "item": "gpt-5.4-nano",
+      "unit": "1M tokens",
+      "input": 0.2,
+      "output": 1.25,
+      "cached_input": 0.02
+    },
+    {
+      "item": "gpt-5.1-codex-mini",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 2,
+      "cached_input": 0.03
+    },
+    {
+      "item": "gpt-5-mini",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 2,
+      "cached_input": 0.025
+    },
+    {
+      "item": "gpt-4.1-mini",
+      "unit": "1M tokens",
+      "input": 0.4,
+      "output": 1.6,
+      "cached_input": 0.1
+    },
+    {
+      "item": "gpt-3.5-turbo",
+      "unit": "1M tokens",
+      "input": 0.5,
+      "output": 1.5
+    },
+    {
+      "item": "gpt-audio-mini",
+      "unit": "1M tokens",
+      "input": 0.6,
+      "output": 2.4
+    },
+    {
+      "item": "gpt-5.4-mini",
+      "unit": "1M tokens",
+      "input": 0.75,
+      "output": 4.5,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gpt-3.5-turbo-0613",
+      "unit": "1M tokens",
+      "input": 1,
+      "output": 2
+    },
+    {
+      "item": "o4-mini-high",
+      "unit": "1M tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cached_input": 0.275
+    },
+    {
+      "item": "o4-mini",
+      "unit": "1M tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cached_input": 0.275
+    },
+    {
+      "item": "o3-mini-high",
+      "unit": "1M tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cached_input": 0.55
+    },
+    {
+      "item": "o3-mini",
+      "unit": "1M tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cached_input": 0.55
+    },
+    {
+      "item": "gpt-5.1-codex-max",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gpt-5.1",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gpt-5.1-codex",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.13
+    },
+    {
+      "item": "gpt-5",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gpt-3.5-turbo-instruct",
+      "unit": "1M tokens",
+      "input": 1.5,
+      "output": 2
+    },
+    {
+      "item": "gpt-5.3-codex",
+      "unit": "1M tokens",
+      "input": 1.75,
+      "output": 14,
+      "cached_input": 0.175
+    },
+    {
+      "item": "gpt-5.2-codex",
+      "unit": "1M tokens",
+      "input": 1.75,
+      "output": 14,
+      "cached_input": 0.175
+    },
+    {
+      "item": "gpt-5.2-chat",
+      "unit": "1M tokens",
+      "input": 1.75,
+      "output": 14,
+      "cached_input": 0.175
+    },
+    {
+      "item": "gpt-5.2",
+      "unit": "1M tokens",
+      "input": 1.75,
+      "output": 14,
+      "cached_input": 0.175
+    }
+  ]
+}

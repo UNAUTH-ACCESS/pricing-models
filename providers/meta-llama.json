@@ -1,0 +1,62 @@
+{
+  "provider": "Meta Llama",
+  "slug": "meta-llama",
+  "category": "llm",
+  "homepage": "https://llama.com",
+  "pricing_url": "https://www.llama.com/",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "llama-3.2-1b-instruct",
+      "unit": "1M tokens",
+      "input": 0.027,
+      "output": 0.201
+    },
+    {
+      "item": "llama-3.2-3b-instruct",
+      "unit": "1M tokens",
+      "input": 0.05,
+      "output": 0.33
+    },
+    {
+      "item": "llama-3.1-8b-instruct",
+      "unit": "1M tokens",
+      "input": 0.05,
+      "output": 0.08,
+      "cached_input": 0.025
+    },
+    {
+      "item": "llama-4-scout",
+      "unit": "1M tokens",
+      "input": 0.1,
+      "output": 0.3
+    },
+    {
+      "item": "llama-3.3-70b-instruct",
+      "unit": "1M tokens",
+      "input": 0.1,
+      "output": 0.32
+    },
+    {
+      "item": "llama-guard-4-12b",
+      "unit": "1M tokens",
+      "input": 0.18,
+      "output": 0.18
+    },
+    {
+      "item": "llama-4-maverick",
+      "unit": "1M tokens",
+      "input": 0.2,
+      "output": 0.696
+    },
+    {
+      "item": "llama-3.1-70b-instruct",
+      "unit": "1M tokens",
+      "input": 0.4,
+      "output": 0.4
+    }
+  ]
+}

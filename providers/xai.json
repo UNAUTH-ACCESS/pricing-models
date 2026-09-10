@@ -1,0 +1,55 @@
+{
+  "provider": "xAI",
+  "slug": "xai",
+  "category": "llm",
+  "homepage": "https://x.ai",
+  "pricing_url": "https://docs.x.ai/docs/models",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "grok-build-0.1",
+      "unit": "1M tokens",
+      "input": 1,
+      "output": 2,
+      "cached_input": 0.2
+    },
+    {
+      "item": "grok-4.3",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 2.5,
+      "cached_input": 0.2
+    },
+    {
+      "item": "grok-4.20-multi-agent",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 2.5,
+      "cached_input": 0.2
+    },
+    {
+      "item": "grok-4.20",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 2.5,
+      "cached_input": 0.2
+    },
+    {
+      "item": "grok-4.6",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 6,
+      "cached_input": 0.5
+    },
+    {
+      "item": "grok-4.5",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 6,
+      "cached_input": 0.3
+    }
+  ]
+}

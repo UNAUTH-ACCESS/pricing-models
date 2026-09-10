@@ -1,0 +1,114 @@
+{
+  "provider": "DeepSeek",
+  "slug": "deepseek",
+  "category": "llm",
+  "homepage": "https://deepseek.com",
+  "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "deepseek-v4-flash-0731",
+      "unit": "1M tokens",
+      "input": 0.065,
+      "output": 0.18,
+      "cached_input": 0.016
+    },
+    {
+      "item": "deepseek-v4-flash",
+      "unit": "1M tokens",
+      "input": 0.0886,
+      "output": 0.1772,
+      "cached_input": 0.0177
+    },
+    {
+      "item": "deepseek-v4.1-flash",
+      "unit": "1M tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cached_input": 0.003
+    },
+    {
+      "item": "deepseek-v4-flash-vision-exp",
+      "unit": "1M tokens",
+      "input": 0.22,
+      "output": 0.66,
+      "cached_input": 0.007
+    },
+    {
+      "item": "deepseek-chat-v3.1",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 0.95,
+      "cached_input": 0.13
+    },
+    {
+      "item": "deepseek-chat",
+      "unit": "1M tokens",
+      "input": 0.2574,
+      "output": 1.0287
+    },
+    {
+      "item": "deepseek-v3.2",
+      "unit": "1M tokens",
+      "input": 0.269,
+      "output": 0.4,
+      "cached_input": 0.1345
+    },
+    {
+      "item": "deepseek-v3.2-exp",
+      "unit": "1M tokens",
+      "input": 0.27,
+      "output": 0.41
+    },
+    {
+      "item": "deepseek-v3.1-terminus",
+      "unit": "1M tokens",
+      "input": 0.27,
+      "output": 1,
+      "cached_input": 0.135
+    },
+    {
+      "item": "deepseek-chat-v3-0324",
+      "unit": "1M tokens",
+      "input": 0.29,
+      "output": 1.14,
+      "cached_input": 0.11
+    },
+    {
+      "item": "deepseek-r1-0528",
+      "unit": "1M tokens",
+      "input": 0.5,
+      "output": 2.15,
+      "cached_input": 0.35
+    },
+    {
+      "item": "deepseek-v4-pro-0813",
+      "unit": "1M tokens",
+      "input": 0.5795,
+      "output": 1.7384,
+      "cached_input": 0.0184
+    },
+    {
+      "item": "deepseek-r1",
+      "unit": "1M tokens",
+      "input": 0.7,
+      "output": 2.5
+    },
+    {
+      "item": "deepseek-r1-distill-llama-70b",
+      "unit": "1M tokens",
+      "input": 0.8,
+      "output": 0.8
+    },
+    {
+      "item": "deepseek-v4-pro",
+      "unit": "1M tokens",
+      "input": 0.9553,
+      "output": 1.9105,
+      "cached_input": 0.0796
+    }
+  ]
+}

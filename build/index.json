@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-10T14:55:44.845Z",
+  "categories": {
+    "llm": 10,
+    "messaging": 1,
+    "speech": 1
+  },
+  "providers": 12,
+  "rate_rows": 164,
+  "stale": [
+    "resend",
+    "elevenlabs"
+  ]
+}

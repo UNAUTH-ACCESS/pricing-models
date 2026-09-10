@@ -1,0 +1,195 @@
+{
+  "provider": "Google Gemini",
+  "slug": "google-gemini",
+  "category": "llm",
+  "homepage": "https://ai.google.dev",
+  "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-10",
+  "source": "openrouter",
+  "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
+  "rates": [
+    {
+      "item": "gemma-3-4b-it",
+      "unit": "1M tokens",
+      "input": 0.05,
+      "output": 0.1
+    },
+    {
+      "item": "gemma-3-12b-it",
+      "unit": "1M tokens",
+      "input": 0.05,
+      "output": 0.15
+    },
+    {
+      "item": "gemma-4-26b-a4b-it",
+      "unit": "1M tokens",
+      "input": 0.07,
+      "output": 0.34
+    },
+    {
+      "item": "gemma-3-27b-it",
+      "unit": "1M tokens",
+      "input": 0.08,
+      "output": 0.45,
+      "cached_input": 0.04
+    },
+    {
+      "item": "gemma-4-31b-it",
+      "unit": "1M tokens",
+      "input": 0.09,
+      "output": 0.34,
+      "cached_input": 0.05
+    },
+    {
+      "item": "gemini-2.5-flash-lite",
+      "unit": "1M tokens",
+      "input": 0.1,
+      "output": 0.4,
+      "cached_input": 0.01
+    },
+    {
+      "item": "gemini-3.1-flash-lite-image",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 1.5
+    },
+    {
+      "item": "gemini-3.1-flash-lite",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 1.5,
+      "cached_input": 0.025
+    },
+    {
+      "item": "gemini-3.1-flash-lite-preview",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 1.5,
+      "cached_input": 0.025
+    },
+    {
+      "item": "gemini-3.5-flash-lite",
+      "unit": "1M tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cached_input": 0.03
+    },
+    {
+      "item": "gemini-2.5-flash-image",
+      "unit": "1M tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cached_input": 0.03
+    },
+    {
+      "item": "gemini-2.5-flash",
+      "unit": "1M tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cached_input": 0.03
+    },
+    {
+      "item": "gemini-3.1-flash-image",
+      "unit": "1M tokens",
+      "input": 0.5,
+      "output": 3
+    },
+    {
+      "item": "gemini-3.1-flash-image-preview",
+      "unit": "1M tokens",
+      "input": 0.5,
+      "output": 3
+    },
+    {
+      "item": "gemini-3-flash-preview",
+      "unit": "1M tokens",
+      "input": 0.5,
+      "output": 3,
+      "cached_input": 0.05
+    },
+    {
+      "item": "gemma-2-27b-it",
+      "unit": "1M tokens",
+      "input": 0.65,
+      "output": 0.65
+    },
+    {
+      "item": "gemini-3.8-flash",
+      "unit": "1M tokens",
+      "input": 0.75,
+      "output": 3.75,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gemini-3.7-flash",
+      "unit": "1M tokens",
+      "input": 0.75,
+      "output": 3.75,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gemini-3.6-flash",
+      "unit": "1M tokens",
+      "input": 0.75,
+      "output": 3.75,
+      "cached_input": 0.075
+    },
+    {
+      "item": "gemini-2.5-pro",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gemini-2.5-pro-preview",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gemini-2.5-pro-preview-05-06",
+      "unit": "1M tokens",
+      "input": 1.25,
+      "output": 10,
+      "cached_input": 0.125
+    },
+    {
+      "item": "gemini-3.5-flash",
+      "unit": "1M tokens",
+      "input": 1.5,
+      "output": 9,
+      "cached_input": 0.15
+    },
+    {
+      "item": "gemini-3-pro-image",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 12,
+      "cached_input": 0.2
+    },
+    {
+      "item": "gemini-3.1-pro-preview-customtools",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 12,
+      "cached_input": 0.2
+    },
+    {
+      "item": "gemini-3.1-pro-preview",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 12,
+      "cached_input": 0.2
+    },
+    {
+      "item": "gemini-3-pro-image-preview",
+      "unit": "1M tokens",
+      "input": 2,
+      "output": 12,
+      "cached_input": 0.2
+    }
+  ]
+}
