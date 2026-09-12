@@ -1,7 +1,8 @@
 # pricing-models
 
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](./LICENSE)
-[![Providers](https://img.shields.io/badge/providers-12-green.svg)](./providers)
+[![Providers](https://img.shields.io/badge/providers-18-green.svg)](./providers)
+[![Categories](https://img.shields.io/badge/categories-5%2F5-green.svg)](./providers)
 [![Format](https://img.shields.io/badge/format-JSON-lightgrey.svg)](./build/all.json)
 
 Machine-readable per-unit pricing for the APIs developers build on — LLM
