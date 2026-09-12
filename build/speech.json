@@ -1,7 +1,35 @@
 {
   "category": "speech",
-  "generated_at": "2026-09-12T04:15:13.936Z",
+  "generated_at": "2026-09-12T07:01:30.140Z",
   "providers": [
+    {
+      "provider": "Deepgram",
+      "slug": "deepgram",
+      "category": "speech",
+      "homepage": "https://deepgram.com",
+      "pricing_url": "https://deepgram.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Pay-as-you-go rates. Pre-recorded STT is cheaper than streaming; Aura-2 is the current-gen TTS voice.",
+      "rates": [
+        {
+          "item": "Speech to Text (Nova-3, pre-recorded, monolingual)",
+          "unit": "minute",
+          "rate": 0.0043
+        },
+        {
+          "item": "Speech to Text (Nova-3, streaming, monolingual)",
+          "unit": "minute",
+          "rate": 0.0048
+        },
+        {
+          "item": "Text to Speech (Aura-2)",
+          "unit": "1K characters",
+          "rate": 0.03
+        }
+      ]
+    },
     {
       "provider": "ElevenLabs",
       "slug": "elevenlabs",
@@ -9,20 +37,29 @@
       "homepage": "https://elevenlabs.io",
       "pricing_url": "https://elevenlabs.io/pricing/api",
       "currency": "USD",
-      "verified_at": null,
+      "verified_at": "2026-09-12",
       "source": "manual",
-      "notes": "SEED STRUCTURE — numbers below are placeholders. Verify every figure against pricing_url and set verified_at before this provider is used in a published comparison.",
+      "notes": "Pay-as-you-go API rates, billed directly in USD (not credits).",
       "rates": [
         {
-          "item": "Text to Speech (Flash v2.5)",
+          "item": "Text to Speech (v3)",
           "unit": "1K characters",
-          "rate": 0,
-          "notes": "credit-based; convert to $/1K chars at the plan's credit rate"
+          "rate": 0.1
         },
         {
-          "item": "Speech to Text (Scribe)",
+          "item": "Text to Speech (Flash/Turbo)",
+          "unit": "1K characters",
+          "rate": 0.05
+        },
+        {
+          "item": "Speech to Text (Scribe v2)",
           "unit": "hour",
-          "rate": 0
+          "rate": 0.22
+        },
+        {
+          "item": "Speech to Text (Scribe v2 Realtime)",
+          "unit": "hour",
+          "rate": 0.39
         }
       ]
     }

@@ -5,10 +5,10 @@
   "homepage": "https://resend.com",
   "pricing_url": "https://resend.com/pricing",
   "currency": "USD",
-  "verified_at": null,
+  "verified_at": "2026-09-12",
   "source": "manual",
-  "notes": "SEED STRUCTURE — verify against pricing_url and set verified_at before use. Resend prices by monthly send volume on tiers; derive an effective $/1K emails for the tier a typical reader would land on and note the tier.",
+  "notes": "Tiered monthly plans with included volume, not pure pay-as-you-go. Rate below is the Pro tier's $20/mo ÷ 50,000 included emails; overage runs $0.90/1K on that tier and falls to $0.46/1K on the largest Scale tier.",
   "rates": [
-    { "item": "Transactional email (Pro tier)", "unit": "1K emails", "rate": 0.0, "notes": "effective rate within the tier's included volume" }
+    { "item": "Transactional email (Pro tier, $20/mo, 50K included)", "unit": "1K emails", "rate": 0.40, "notes": "effective rate within included volume; overage billed separately at $0.90/1K" }
   ]
 }

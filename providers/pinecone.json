@@ -1,0 +1,16 @@
+{
+  "provider": "Pinecone",
+  "slug": "pinecone",
+  "category": "vectors",
+  "homepage": "https://www.pinecone.io",
+  "pricing_url": "https://www.pinecone.io/pricing/",
+  "currency": "USD",
+  "verified_at": "2026-09-12",
+  "source": "manual",
+  "notes": "Standard plan, serverless on-demand. Read/write unit rates vary $16-18/M and $4-4.50/M by cloud/region — midpoint used below. $50/mo minimum applies toward usage.",
+  "rates": [
+    { "item": "Read units", "unit": "1M units", "rate": 17.00, "notes": "varies $16-18/M by cloud/region" },
+    { "item": "Write units", "unit": "1M units", "rate": 4.25, "notes": "varies $4-4.50/M by cloud/region" },
+    { "item": "Storage", "unit": "GB/mo", "rate": 0.33 }
+  ]
+}

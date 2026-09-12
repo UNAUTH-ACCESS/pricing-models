@@ -1,0 +1,17 @@
+{
+  "provider": "Google Maps Platform",
+  "slug": "google-maps",
+  "category": "maps",
+  "homepage": "https://mapsplatform.google.com",
+  "pricing_url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-12",
+  "source": "manual",
+  "notes": "Pay-as-you-go rates, lowest volume tier (0-100K requests/mo), before the ~20% volume discount above 100K. Each SKU also gets its own separate monthly free-request allotment.",
+  "rates": [
+    { "item": "Geocoding API", "unit": "1K requests", "rate": 5.00, "notes": "10,000 free requests/mo" },
+    { "item": "Directions API (Basic)", "unit": "1K requests", "rate": 5.00, "notes": "10,000 free requests/mo" },
+    { "item": "Places API (Text/Nearby Search)", "unit": "1K requests", "rate": 32.00, "notes": "5,000 free requests/mo" },
+    { "item": "Dynamic Maps (JavaScript API)", "unit": "1K loads", "rate": 7.00, "notes": "10,000 free loads/mo" }
+  ]
+}

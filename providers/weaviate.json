@@ -1,0 +1,15 @@
+{
+  "provider": "Weaviate Cloud",
+  "slug": "weaviate",
+  "category": "vectors",
+  "homepage": "https://weaviate.io",
+  "pricing_url": "https://weaviate.io/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-12",
+  "source": "manual",
+  "notes": "Serverless Flex tier rates (cheapest tier; Premium Shared/Dedicated cost more per unit but less at scale). Prices per vector dimension, not per read/write like Pinecone — the two aren't directly comparable unit-for-unit.",
+  "rates": [
+    { "item": "Vector dimensions stored", "unit": "1M dimensions", "rate": 0.00465 },
+    { "item": "Storage", "unit": "GiB", "rate": 0.12 }
+  ]
+}

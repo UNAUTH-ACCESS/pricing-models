@@ -1,0 +1,16 @@
+{
+  "provider": "Deepgram",
+  "slug": "deepgram",
+  "category": "speech",
+  "homepage": "https://deepgram.com",
+  "pricing_url": "https://deepgram.com/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-12",
+  "source": "manual",
+  "notes": "Pay-as-you-go rates. Pre-recorded STT is cheaper than streaming; Aura-2 is the current-gen TTS voice.",
+  "rates": [
+    { "item": "Speech to Text (Nova-3, pre-recorded, monolingual)", "unit": "minute", "rate": 0.0043 },
+    { "item": "Speech to Text (Nova-3, streaming, monolingual)", "unit": "minute", "rate": 0.0048 },
+    { "item": "Text to Speech (Aura-2)", "unit": "1K characters", "rate": 0.030 }
+  ]
+}

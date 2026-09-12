@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:15:13.934Z",
+  "generated_at": "2026-09-12T07:01:30.134Z",
   "providers": [
     {
       "provider": "Anthropic",
@@ -1202,21 +1202,136 @@
       ]
     },
     {
+      "provider": "Google Maps Platform",
+      "slug": "google-maps",
+      "category": "maps",
+      "homepage": "https://mapsplatform.google.com",
+      "pricing_url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Pay-as-you-go rates, lowest volume tier (0-100K requests/mo), before the ~20% volume discount above 100K. Each SKU also gets its own separate monthly free-request allotment.",
+      "rates": [
+        {
+          "item": "Geocoding API",
+          "unit": "1K requests",
+          "rate": 5,
+          "notes": "10,000 free requests/mo"
+        },
+        {
+          "item": "Directions API (Basic)",
+          "unit": "1K requests",
+          "rate": 5,
+          "notes": "10,000 free requests/mo"
+        },
+        {
+          "item": "Places API (Text/Nearby Search)",
+          "unit": "1K requests",
+          "rate": 32,
+          "notes": "5,000 free requests/mo"
+        },
+        {
+          "item": "Dynamic Maps (JavaScript API)",
+          "unit": "1K loads",
+          "rate": 7,
+          "notes": "10,000 free loads/mo"
+        }
+      ]
+    },
+    {
+      "provider": "Mapbox",
+      "slug": "mapbox",
+      "category": "maps",
+      "homepage": "https://www.mapbox.com",
+      "pricing_url": "https://www.mapbox.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Pay-as-you-go rates, lowest volume tier. Volume pricing drops automatically as usage grows (e.g. Geocoding falls to $0.45/1K past 1M requests).",
+      "rates": [
+        {
+          "item": "Geocoding API (Temporary)",
+          "unit": "1K requests",
+          "rate": 0.75,
+          "notes": "100,000 free requests/mo"
+        },
+        {
+          "item": "Directions API",
+          "unit": "1K requests",
+          "rate": 2,
+          "notes": "100,000 free requests/mo"
+        },
+        {
+          "item": "Maps GL JS (web map loads)",
+          "unit": "1K loads",
+          "rate": 5,
+          "notes": "50,000 free loads/mo"
+        }
+      ]
+    },
+    {
+      "provider": "Postmark",
+      "slug": "postmark",
+      "category": "messaging",
+      "homepage": "https://postmarkapp.com",
+      "pricing_url": "https://postmarkapp.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Tiered monthly plans. Rate below is the Basic tier's $15/mo ÷ 10,000 included emails; overage runs $1.80/1K on Basic and drops to $1.20/1K on the Platform tier.",
+      "rates": [
+        {
+          "item": "Transactional email (Basic tier, $15/mo, 10K included)",
+          "unit": "1K emails",
+          "rate": 1.5,
+          "notes": "effective rate within included volume; overage billed separately at $1.80/1K"
+        }
+      ]
+    },
+    {
       "provider": "Resend",
       "slug": "resend",
       "category": "messaging",
       "homepage": "https://resend.com",
       "pricing_url": "https://resend.com/pricing",
       "currency": "USD",
-      "verified_at": null,
+      "verified_at": "2026-09-12",
       "source": "manual",
-      "notes": "SEED STRUCTURE — verify against pricing_url and set verified_at before use. Resend prices by monthly send volume on tiers; derive an effective $/1K emails for the tier a typical reader would land on and note the tier.",
+      "notes": "Tiered monthly plans with included volume, not pure pay-as-you-go. Rate below is the Pro tier's $20/mo ÷ 50,000 included emails; overage runs $0.90/1K on that tier and falls to $0.46/1K on the largest Scale tier.",
       "rates": [
         {
-          "item": "Transactional email (Pro tier)",
+          "item": "Transactional email (Pro tier, $20/mo, 50K included)",
           "unit": "1K emails",
-          "rate": 0,
-          "notes": "effective rate within the tier's included volume"
+          "rate": 0.4,
+          "notes": "effective rate within included volume; overage billed separately at $0.90/1K"
+        }
+      ]
+    },
+    {
+      "provider": "Deepgram",
+      "slug": "deepgram",
+      "category": "speech",
+      "homepage": "https://deepgram.com",
+      "pricing_url": "https://deepgram.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Pay-as-you-go rates. Pre-recorded STT is cheaper than streaming; Aura-2 is the current-gen TTS voice.",
+      "rates": [
+        {
+          "item": "Speech to Text (Nova-3, pre-recorded, monolingual)",
+          "unit": "minute",
+          "rate": 0.0043
+        },
+        {
+          "item": "Speech to Text (Nova-3, streaming, monolingual)",
+          "unit": "minute",
+          "rate": 0.0048
+        },
+        {
+          "item": "Text to Speech (Aura-2)",
+          "unit": "1K characters",
+          "rate": 0.03
         }
       ]
     },
@@ -1227,20 +1342,82 @@
       "homepage": "https://elevenlabs.io",
       "pricing_url": "https://elevenlabs.io/pricing/api",
       "currency": "USD",
-      "verified_at": null,
+      "verified_at": "2026-09-12",
       "source": "manual",
-      "notes": "SEED STRUCTURE — numbers below are placeholders. Verify every figure against pricing_url and set verified_at before this provider is used in a published comparison.",
+      "notes": "Pay-as-you-go API rates, billed directly in USD (not credits).",
       "rates": [
         {
-          "item": "Text to Speech (Flash v2.5)",
+          "item": "Text to Speech (v3)",
           "unit": "1K characters",
-          "rate": 0,
-          "notes": "credit-based; convert to $/1K chars at the plan's credit rate"
+          "rate": 0.1
         },
         {
-          "item": "Speech to Text (Scribe)",
+          "item": "Text to Speech (Flash/Turbo)",
+          "unit": "1K characters",
+          "rate": 0.05
+        },
+        {
+          "item": "Speech to Text (Scribe v2)",
           "unit": "hour",
-          "rate": 0
+          "rate": 0.22
+        },
+        {
+          "item": "Speech to Text (Scribe v2 Realtime)",
+          "unit": "hour",
+          "rate": 0.39
+        }
+      ]
+    },
+    {
+      "provider": "Pinecone",
+      "slug": "pinecone",
+      "category": "vectors",
+      "homepage": "https://www.pinecone.io",
+      "pricing_url": "https://www.pinecone.io/pricing/",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Standard plan, serverless on-demand. Read/write unit rates vary $16-18/M and $4-4.50/M by cloud/region — midpoint used below. $50/mo minimum applies toward usage.",
+      "rates": [
+        {
+          "item": "Read units",
+          "unit": "1M units",
+          "rate": 17,
+          "notes": "varies $16-18/M by cloud/region"
+        },
+        {
+          "item": "Write units",
+          "unit": "1M units",
+          "rate": 4.25,
+          "notes": "varies $4-4.50/M by cloud/region"
+        },
+        {
+          "item": "Storage",
+          "unit": "GB/mo",
+          "rate": 0.33
+        }
+      ]
+    },
+    {
+      "provider": "Weaviate Cloud",
+      "slug": "weaviate",
+      "category": "vectors",
+      "homepage": "https://weaviate.io",
+      "pricing_url": "https://weaviate.io/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Serverless Flex tier rates (cheapest tier; Premium Shared/Dedicated cost more per unit but less at scale). Prices per vector dimension, not per read/write like Pinecone — the two aren't directly comparable unit-for-unit.",
+      "rates": [
+        {
+          "item": "Vector dimensions stored",
+          "unit": "1M dimensions",
+          "rate": 0.00465
+        },
+        {
+          "item": "Storage",
+          "unit": "GiB",
+          "rate": 0.12
         }
       ]
     }

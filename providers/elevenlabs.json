@@ -5,11 +5,13 @@
   "homepage": "https://elevenlabs.io",
   "pricing_url": "https://elevenlabs.io/pricing/api",
   "currency": "USD",
-  "verified_at": null,
+  "verified_at": "2026-09-12",
   "source": "manual",
-  "notes": "SEED STRUCTURE — numbers below are placeholders. Verify every figure against pricing_url and set verified_at before this provider is used in a published comparison.",
+  "notes": "Pay-as-you-go API rates, billed directly in USD (not credits).",
   "rates": [
-    { "item": "Text to Speech (Flash v2.5)", "unit": "1K characters", "rate": 0.0, "notes": "credit-based; convert to $/1K chars at the plan's credit rate" },
-    { "item": "Speech to Text (Scribe)", "unit": "hour", "rate": 0.0 }
+    { "item": "Text to Speech (v3)", "unit": "1K characters", "rate": 0.10 },
+    { "item": "Text to Speech (Flash/Turbo)", "unit": "1K characters", "rate": 0.05 },
+    { "item": "Speech to Text (Scribe v2)", "unit": "hour", "rate": 0.22 },
+    { "item": "Speech to Text (Scribe v2 Realtime)", "unit": "hour", "rate": 0.39 }
   ]
 }

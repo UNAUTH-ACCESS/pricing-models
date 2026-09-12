@@ -1,0 +1,16 @@
+{
+  "provider": "Mapbox",
+  "slug": "mapbox",
+  "category": "maps",
+  "homepage": "https://www.mapbox.com",
+  "pricing_url": "https://www.mapbox.com/pricing",
+  "currency": "USD",
+  "verified_at": "2026-09-12",
+  "source": "manual",
+  "notes": "Pay-as-you-go rates, lowest volume tier. Volume pricing drops automatically as usage grows (e.g. Geocoding falls to $0.45/1K past 1M requests).",
+  "rates": [
+    { "item": "Geocoding API (Temporary)", "unit": "1K requests", "rate": 0.75, "notes": "100,000 free requests/mo" },
+    { "item": "Directions API", "unit": "1K requests", "rate": 2.00, "notes": "100,000 free requests/mo" },
+    { "item": "Maps GL JS (web map loads)", "unit": "1K loads", "rate": 5.00, "notes": "50,000 free loads/mo" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "category": "vectors",
+  "generated_at": "2026-09-12T07:01:30.140Z",
+  "providers": [
+    {
+      "provider": "Pinecone",
+      "slug": "pinecone",
+      "category": "vectors",
+      "homepage": "https://www.pinecone.io",
+      "pricing_url": "https://www.pinecone.io/pricing/",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Standard plan, serverless on-demand. Read/write unit rates vary $16-18/M and $4-4.50/M by cloud/region — midpoint used below. $50/mo minimum applies toward usage.",
+      "rates": [
+        {
+          "item": "Read units",
+          "unit": "1M units",
+          "rate": 17,
+          "notes": "varies $16-18/M by cloud/region"
+        },
+        {
+          "item": "Write units",
+          "unit": "1M units",
+          "rate": 4.25,
+          "notes": "varies $4-4.50/M by cloud/region"
+        },
+        {
+          "item": "Storage",
+          "unit": "GB/mo",
+          "rate": 0.33
+        }
+      ]
+    },
+    {
+      "provider": "Weaviate Cloud",
+      "slug": "weaviate",
+      "category": "vectors",
+      "homepage": "https://weaviate.io",
+      "pricing_url": "https://weaviate.io/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Serverless Flex tier rates (cheapest tier; Premium Shared/Dedicated cost more per unit but less at scale). Prices per vector dimension, not per read/write like Pinecone — the two aren't directly comparable unit-for-unit.",
+      "rates": [
+        {
+          "item": "Vector dimensions stored",
+          "unit": "1M dimensions",
+          "rate": 0.00465
+        },
+        {
+          "item": "Storage",
+          "unit": "GiB",
+          "rate": 0.12
+        }
+      ]
+    }
+  ]
+}
