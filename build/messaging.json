@@ -1,6 +1,6 @@
 {
   "category": "messaging",
-  "generated_at": "2026-09-12T07:01:30.140Z",
+  "generated_at": "2026-09-12T07:07:26.527Z",
   "providers": [
     {
       "provider": "Postmark",
@@ -11,13 +11,46 @@
       "currency": "USD",
       "verified_at": "2026-09-12",
       "source": "manual",
-      "notes": "Tiered monthly plans. Rate below is the Basic tier's $15/mo ÷ 10,000 included emails; overage runs $1.80/1K on Basic and drops to $1.20/1K on the Platform tier.",
+      "notes": "Tiered monthly plans. Effective-rate line divides the Basic tier's $15/mo by its 10,000 included emails; plan and overage rates are listed as their own line items so every figure a comparison would cite is a real, sourced number.",
       "rates": [
         {
-          "item": "Transactional email (Basic tier, $15/mo, 10K included)",
+          "item": "Free plan",
+          "unit": "month",
+          "rate": 0,
+          "notes": "100 emails/mo included"
+        },
+        {
+          "item": "Basic plan",
+          "unit": "month",
+          "rate": 15,
+          "notes": "10,000 emails/mo included"
+        },
+        {
+          "item": "Pro plan",
+          "unit": "month",
+          "rate": 16.5,
+          "notes": "10,000 emails/mo included"
+        },
+        {
+          "item": "Platform plan",
+          "unit": "month",
+          "rate": 18,
+          "notes": "10,000 emails/mo included"
+        },
+        {
+          "item": "Overage, Basic tier",
           "unit": "1K emails",
-          "rate": 1.5,
-          "notes": "effective rate within included volume; overage billed separately at $1.80/1K"
+          "rate": 1.8
+        },
+        {
+          "item": "Overage, Platform tier",
+          "unit": "1K emails",
+          "rate": 1.2
+        },
+        {
+          "item": "Transactional email (Basic tier, effective rate within included volume)",
+          "unit": "1K emails",
+          "rate": 1.5
         }
       ]
     },
@@ -30,13 +63,40 @@
       "currency": "USD",
       "verified_at": "2026-09-12",
       "source": "manual",
-      "notes": "Tiered monthly plans with included volume, not pure pay-as-you-go. Rate below is the Pro tier's $20/mo ÷ 50,000 included emails; overage runs $0.90/1K on that tier and falls to $0.46/1K on the largest Scale tier.",
+      "notes": "Tiered monthly plans with included volume, not pure pay-as-you-go. Effective-rate line divides the Pro tier's $20/mo by its 50,000 included emails; plan and overage rates are listed as their own line items so every figure a comparison would cite is a real, sourced number.",
       "rates": [
         {
-          "item": "Transactional email (Pro tier, $20/mo, 50K included)",
+          "item": "Free plan",
+          "unit": "month",
+          "rate": 0,
+          "notes": "3,000 emails/mo included, 100/day cap"
+        },
+        {
+          "item": "Pro plan",
+          "unit": "month",
+          "rate": 20,
+          "notes": "50,000 emails/mo included"
+        },
+        {
+          "item": "Scale plan (entry)",
+          "unit": "month",
+          "rate": 90,
+          "notes": "100,000 emails/mo included"
+        },
+        {
+          "item": "Overage, Pro tier",
           "unit": "1K emails",
-          "rate": 0.4,
-          "notes": "effective rate within included volume; overage billed separately at $0.90/1K"
+          "rate": 0.9
+        },
+        {
+          "item": "Overage, largest Scale tier (2.5M/mo)",
+          "unit": "1K emails",
+          "rate": 0.46
+        },
+        {
+          "item": "Transactional email (Pro tier, effective rate within included volume)",
+          "unit": "1K emails",
+          "rate": 0.4
         }
       ]
     }
