@@ -1,5 +1,9 @@
 # pricing-models
 
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](./LICENSE)
+[![Providers](https://img.shields.io/badge/providers-12-green.svg)](./providers)
+[![Format](https://img.shields.io/badge/format-JSON-lightgrey.svg)](./build/all.json)
+
 Machine-readable per-unit pricing for the APIs developers build on — LLM
 inference, speech, messaging, maps, and vector databases. One JSON file per
 provider, a `verified_at` date on each, updated when the provider changes.
@@ -72,3 +76,10 @@ for p in d["providers"]:
 
 Open an issue or a PR with the provider, the wrong figure, the right figure, and
 the pricing-page URL you read it from.
+
+## Cite this
+
+```
+pricing-models. api-rate.store, retrieved <date>.
+https://github.com/UNAUTH-ACCESS/pricing-models
+```

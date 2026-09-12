@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:55:44.843Z",
+  "generated_at": "2026-09-12T04:15:13.934Z",
   "providers": [
     {
       "provider": "Anthropic",
@@ -8,7 +8,7 @@
       "homepage": "https://anthropic.com",
       "pricing_url": "https://www.anthropic.com/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -126,7 +126,7 @@
       "homepage": "https://cohere.com",
       "pricing_url": "https://cohere.com/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -163,7 +163,7 @@
       "homepage": "https://deepseek.com",
       "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -177,9 +177,9 @@
         {
           "item": "deepseek-v4-flash",
           "unit": "1M tokens",
-          "input": 0.0886,
-          "output": 0.1772,
-          "cached_input": 0.0177
+          "input": 0.0668,
+          "output": 0.1336,
+          "cached_input": 0.0134
         },
         {
           "item": "deepseek-v4.1-flash",
@@ -201,6 +201,12 @@
           "input": 0.25,
           "output": 0.95,
           "cached_input": 0.13
+        },
+        {
+          "item": "deepseek-chat-v3-0324",
+          "unit": "1M tokens",
+          "input": 0.25,
+          "output": 1
         },
         {
           "item": "deepseek-chat",
@@ -229,13 +235,6 @@
           "cached_input": 0.135
         },
         {
-          "item": "deepseek-chat-v3-0324",
-          "unit": "1M tokens",
-          "input": 0.29,
-          "output": 1.14,
-          "cached_input": 0.11
-        },
-        {
           "item": "deepseek-r1-0528",
           "unit": "1M tokens",
           "input": 0.5,
@@ -245,8 +244,8 @@
         {
           "item": "deepseek-v4-pro-0813",
           "unit": "1M tokens",
-          "input": 0.5795,
-          "output": 1.7384,
+          "input": 0.5782,
+          "output": 1.7345,
           "cached_input": 0.0184
         },
         {
@@ -264,9 +263,9 @@
         {
           "item": "deepseek-v4-pro",
           "unit": "1M tokens",
-          "input": 0.9553,
-          "output": 1.9105,
-          "cached_input": 0.0796
+          "input": 0.8295,
+          "output": 1.6589,
+          "cached_input": 0.0691
         }
       ]
     },
@@ -277,10 +276,16 @@
       "homepage": "https://ai.google.dev",
       "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
+        {
+          "item": "gemma-4-26b-a4b-it",
+          "unit": "1M tokens",
+          "input": 0.042,
+          "output": 0.22
+        },
         {
           "item": "gemma-3-4b-it",
           "unit": "1M tokens",
@@ -292,12 +297,6 @@
           "unit": "1M tokens",
           "input": 0.05,
           "output": 0.15
-        },
-        {
-          "item": "gemma-4-26b-a4b-it",
-          "unit": "1M tokens",
-          "input": 0.07,
-          "output": 0.34
         },
         {
           "item": "gemma-3-27b-it",
@@ -472,7 +471,7 @@
       "homepage": "https://llama.com",
       "pricing_url": "https://www.llama.com/",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -522,8 +521,8 @@
         {
           "item": "llama-3.1-70b-instruct",
           "unit": "1M tokens",
-          "input": 0.4,
-          "output": 0.4
+          "input": 0.72,
+          "output": 0.72
         }
       ]
     },
@@ -534,7 +533,7 @@
       "homepage": "https://mistral.ai",
       "pricing_url": "https://mistral.ai/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -675,7 +674,7 @@
       "homepage": "https://moonshot.ai",
       "pricing_url": "https://platform.moonshot.ai/docs/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -722,9 +721,9 @@
         {
           "item": "kimi-k3",
           "unit": "1M tokens",
-          "input": 3,
-          "output": 15,
-          "cached_input": 0.3
+          "input": 2.3027,
+          "output": 11.5502,
+          "cached_input": 0.2632
         }
       ]
     },
@@ -735,7 +734,7 @@
       "homepage": "https://openai.com",
       "pricing_url": "https://openai.com/api/pricing/",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -953,7 +952,7 @@
       "homepage": "https://qwen.ai",
       "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -963,12 +962,6 @@
           "input": 0.03,
           "output": 0.13,
           "cached_input": 0.006
-        },
-        {
-          "item": "qwen3-30b-a3b-instruct-2507",
-          "unit": "1M tokens",
-          "input": 0.0481,
-          "output": 0.193
         },
         {
           "item": "qwen3.5-flash-02-23",
@@ -989,10 +982,23 @@
           "output": 0.28
         },
         {
+          "item": "qwen3-235b-a22b-2507",
+          "unit": "1M tokens",
+          "input": 0.0875,
+          "output": 0.35,
+          "cached_input": 0.0175
+        },
+        {
           "item": "qwen3-next-80b-a3b-instruct",
           "unit": "1M tokens",
           "input": 0.09,
           "output": 1.1
+        },
+        {
+          "item": "qwen3-30b-a3b-instruct-2507",
+          "unit": "1M tokens",
+          "input": 0.09,
+          "output": 0.3
         },
         {
           "item": "qwen3.6-35b-a3b",
@@ -1108,10 +1114,11 @@
           "cached_input": 0.1
         },
         {
-          "item": "qwen3-235b-a22b-2507",
+          "item": "qwen3.8-27b",
           "unit": "1M tokens",
-          "input": 0.22,
-          "output": 0.88
+          "input": 0.214,
+          "output": 2.55,
+          "cached_input": 0.15
         },
         {
           "item": "qwen3-14b",
@@ -1136,12 +1143,6 @@
           "unit": "1M tokens",
           "input": 0.26,
           "output": 1.56
-        },
-        {
-          "item": "qwen-plus-2025-07-28",
-          "unit": "1M tokens",
-          "input": 0.26,
-          "output": 0.78
         }
       ]
     },
@@ -1152,7 +1153,7 @@
       "homepage": "https://x.ai",
       "pricing_url": "https://docs.x.ai/docs/models",
       "currency": "USD",
-      "verified_at": "2026-09-10",
+      "verified_at": "2026-09-12",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [

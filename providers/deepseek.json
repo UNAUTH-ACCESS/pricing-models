@@ -5,7 +5,7 @@
   "homepage": "https://deepseek.com",
   "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
   "currency": "USD",
-  "verified_at": "2026-09-10",
+  "verified_at": "2026-09-12",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -19,9 +19,9 @@
     {
       "item": "deepseek-v4-flash",
       "unit": "1M tokens",
-      "input": 0.0886,
-      "output": 0.1772,
-      "cached_input": 0.0177
+      "input": 0.0668,
+      "output": 0.1336,
+      "cached_input": 0.0134
     },
     {
       "item": "deepseek-v4.1-flash",
@@ -43,6 +43,12 @@
       "input": 0.25,
       "output": 0.95,
       "cached_input": 0.13
+    },
+    {
+      "item": "deepseek-chat-v3-0324",
+      "unit": "1M tokens",
+      "input": 0.25,
+      "output": 1
     },
     {
       "item": "deepseek-chat",
@@ -71,13 +77,6 @@
       "cached_input": 0.135
     },
     {
-      "item": "deepseek-chat-v3-0324",
-      "unit": "1M tokens",
-      "input": 0.29,
-      "output": 1.14,
-      "cached_input": 0.11
-    },
-    {
       "item": "deepseek-r1-0528",
       "unit": "1M tokens",
       "input": 0.5,
@@ -87,8 +86,8 @@
     {
       "item": "deepseek-v4-pro-0813",
       "unit": "1M tokens",
-      "input": 0.5795,
-      "output": 1.7384,
+      "input": 0.5782,
+      "output": 1.7345,
       "cached_input": 0.0184
     },
     {
@@ -106,9 +105,9 @@
     {
       "item": "deepseek-v4-pro",
       "unit": "1M tokens",
-      "input": 0.9553,
-      "output": 1.9105,
-      "cached_input": 0.0796
+      "input": 0.8295,
+      "output": 1.6589,
+      "cached_input": 0.0691
     }
   ]
 }

@@ -5,7 +5,7 @@
   "homepage": "https://qwen.ai",
   "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "verified_at": "2026-09-10",
+  "verified_at": "2026-09-12",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -15,12 +15,6 @@
       "input": 0.03,
       "output": 0.13,
       "cached_input": 0.006
-    },
-    {
-      "item": "qwen3-30b-a3b-instruct-2507",
-      "unit": "1M tokens",
-      "input": 0.0481,
-      "output": 0.193
     },
     {
       "item": "qwen3.5-flash-02-23",
@@ -41,10 +35,23 @@
       "output": 0.28
     },
     {
+      "item": "qwen3-235b-a22b-2507",
+      "unit": "1M tokens",
+      "input": 0.0875,
+      "output": 0.35,
+      "cached_input": 0.0175
+    },
+    {
       "item": "qwen3-next-80b-a3b-instruct",
       "unit": "1M tokens",
       "input": 0.09,
       "output": 1.1
+    },
+    {
+      "item": "qwen3-30b-a3b-instruct-2507",
+      "unit": "1M tokens",
+      "input": 0.09,
+      "output": 0.3
     },
     {
       "item": "qwen3.6-35b-a3b",
@@ -160,10 +167,11 @@
       "cached_input": 0.1
     },
     {
-      "item": "qwen3-235b-a22b-2507",
+      "item": "qwen3.8-27b",
       "unit": "1M tokens",
-      "input": 0.22,
-      "output": 0.88
+      "input": 0.214,
+      "output": 2.55,
+      "cached_input": 0.15
     },
     {
       "item": "qwen3-14b",
@@ -188,12 +196,6 @@
       "unit": "1M tokens",
       "input": 0.26,
       "output": 1.56
-    },
-    {
-      "item": "qwen-plus-2025-07-28",
-      "unit": "1M tokens",
-      "input": 0.26,
-      "output": 0.78
     }
   ]
 }
