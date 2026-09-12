@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-12T07:07:26.528Z",
+  "generated_at": "2026-09-12T22:52:08.001Z",
   "categories": {
     "llm": 10,
     "maps": 2,
     "messaging": 2,
-    "speech": 2,
+    "speech": 3,
     "vectors": 2
   },
-  "providers": 18,
-  "rate_rows": 193,
+  "providers": 19,
+  "rate_rows": 197,
   "stale": []
 }

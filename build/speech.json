@@ -1,7 +1,40 @@
 {
   "category": "speech",
-  "generated_at": "2026-09-12T07:07:26.527Z",
+  "generated_at": "2026-09-12T22:52:08.000Z",
   "providers": [
+    {
+      "provider": "AssemblyAI",
+      "slug": "assemblyai",
+      "category": "speech",
+      "homepage": "https://www.assemblyai.com",
+      "pricing_url": "https://www.assemblyai.com/pricing",
+      "currency": "USD",
+      "verified_at": "2026-09-12",
+      "source": "manual",
+      "notes": "Pay-as-you-go rates. Universal-3.5 Pro is the higher-accuracy tier recommended for production; Universal-2/Universal-Streaming are the cheaper legacy tier.",
+      "rates": [
+        {
+          "item": "Speech to Text (Universal-3.5 Pro, async)",
+          "unit": "hour",
+          "rate": 0.21
+        },
+        {
+          "item": "Speech to Text (Universal-2, async)",
+          "unit": "hour",
+          "rate": 0.15
+        },
+        {
+          "item": "Speech to Text (Universal-3.5 Pro, streaming)",
+          "unit": "hour",
+          "rate": 0.45
+        },
+        {
+          "item": "Speech to Text (Universal-Streaming)",
+          "unit": "hour",
+          "rate": 0.15
+        }
+      ]
+    },
     {
       "provider": "Deepgram",
       "slug": "deepgram",

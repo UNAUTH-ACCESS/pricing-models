@@ -26,8 +26,7 @@
       "item": "kimi-k2-thinking",
       "unit": "1M tokens",
       "input": 0.6,
-      "output": 2.5,
-      "cached_input": 0.15
+      "output": 2.5
     },
     {
       "item": "kimi-k2-0905",
@@ -52,9 +51,9 @@
     {
       "item": "kimi-k3",
       "unit": "1M tokens",
-      "input": 2.3027,
-      "output": 11.5502,
-      "cached_input": 0.2632
+      "input": 2.6481,
+      "output": 13.2827,
+      "cached_input": 0.3026
     }
   ]
 }

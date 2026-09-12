@@ -55,8 +55,8 @@
     {
       "item": "llama-3.1-70b-instruct",
       "unit": "1M tokens",
-      "input": 0.72,
-      "output": 0.72
+      "input": 0.4,
+      "output": 0.4
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "llm",
-  "generated_at": "2026-09-12T07:07:26.526Z",
+  "generated_at": "2026-09-12T22:52:07.998Z",
   "providers": [
     {
       "provider": "Anthropic",
@@ -171,16 +171,16 @@
         {
           "item": "deepseek-v4-flash-0731",
           "unit": "1M tokens",
-          "input": 0.065,
-          "output": 0.18,
-          "cached_input": 0.016
+          "input": 0.04,
+          "output": 0.08,
+          "cached_input": 0.008
         },
         {
           "item": "deepseek-v4-flash",
           "unit": "1M tokens",
-          "input": 0.0668,
-          "output": 0.1336,
-          "cached_input": 0.0134
+          "input": 0.0657,
+          "output": 0.1313,
+          "cached_input": 0.0131
         },
         {
           "item": "deepseek-v4.1-flash",
@@ -245,9 +245,9 @@
         {
           "item": "deepseek-v4-pro-0813",
           "unit": "1M tokens",
-          "input": 0.5782,
-          "output": 1.7345,
-          "cached_input": 0.0184
+          "input": 0.5795,
+          "output": 1.7384,
+          "cached_input": 0.0193
         },
         {
           "item": "deepseek-r1",
@@ -264,9 +264,9 @@
         {
           "item": "deepseek-v4-pro",
           "unit": "1M tokens",
-          "input": 0.8295,
-          "output": 1.6589,
-          "cached_input": 0.0691
+          "input": 1.6,
+          "output": 3.2,
+          "cached_input": 0.135
         }
       ]
     },
@@ -522,8 +522,8 @@
         {
           "item": "llama-3.1-70b-instruct",
           "unit": "1M tokens",
-          "input": 0.72,
-          "output": 0.72
+          "input": 0.4,
+          "output": 0.4
         }
       ]
     },
@@ -696,8 +696,7 @@
           "item": "kimi-k2-thinking",
           "unit": "1M tokens",
           "input": 0.6,
-          "output": 2.5,
-          "cached_input": 0.15
+          "output": 2.5
         },
         {
           "item": "kimi-k2-0905",
@@ -722,9 +721,9 @@
         {
           "item": "kimi-k3",
           "unit": "1M tokens",
-          "input": 2.3027,
-          "output": 11.5502,
-          "cached_input": 0.2632
+          "input": 2.6481,
+          "output": 13.2827,
+          "cached_input": 0.3026
         }
       ]
     },
