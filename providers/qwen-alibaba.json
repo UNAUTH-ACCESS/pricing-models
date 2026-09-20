@@ -5,7 +5,7 @@
   "homepage": "https://qwen.ai",
   "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "currency": "USD",
-  "verified_at": "2026-09-12",
+  "verified_at": "2026-09-20",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -15,6 +15,12 @@
       "input": 0.03,
       "output": 0.13,
       "cached_input": 0.006
+    },
+    {
+      "item": "qwen3-30b-a3b-instruct-2507",
+      "unit": "1M tokens",
+      "input": 0.0481,
+      "output": 0.193
     },
     {
       "item": "qwen3.5-flash-02-23",
@@ -46,12 +52,6 @@
       "unit": "1M tokens",
       "input": 0.09,
       "output": 1.1
-    },
-    {
-      "item": "qwen3-30b-a3b-instruct-2507",
-      "unit": "1M tokens",
-      "input": 0.09,
-      "output": 0.3
     },
     {
       "item": "qwen3.6-35b-a3b",
@@ -104,17 +104,23 @@
       "output": 0.5
     },
     {
+      "item": "qwen3-14b",
+      "unit": "1M tokens",
+      "input": 0.12,
+      "output": 0.24
+    },
+    {
+      "item": "qwen3-vl-30b-a3b-instruct",
+      "unit": "1M tokens",
+      "input": 0.13,
+      "output": 0.52
+    },
+    {
       "item": "qwen3.8-flash",
       "unit": "1M tokens",
       "input": 0.15,
       "output": 0.47,
       "cached_input": 0.016
-    },
-    {
-      "item": "qwen3-vl-30b-a3b-instruct",
-      "unit": "1M tokens",
-      "input": 0.15,
-      "output": 0.6
     },
     {
       "item": "qwen3-next-80b-a3b-thinking",
@@ -167,19 +173,6 @@
       "cached_input": 0.1
     },
     {
-      "item": "qwen3.8-27b",
-      "unit": "1M tokens",
-      "input": 0.214,
-      "output": 2.55,
-      "cached_input": 0.15
-    },
-    {
-      "item": "qwen3-14b",
-      "unit": "1M tokens",
-      "input": 0.2275,
-      "output": 0.91
-    },
-    {
       "item": "qwen3-235b-a22b-thinking-2507",
       "unit": "1M tokens",
       "input": 0.23,
@@ -196,6 +189,12 @@
       "unit": "1M tokens",
       "input": 0.26,
       "output": 1.56
+    },
+    {
+      "item": "qwen-plus-2025-07-28",
+      "unit": "1M tokens",
+      "input": 0.26,
+      "output": 0.78
     }
   ]
 }

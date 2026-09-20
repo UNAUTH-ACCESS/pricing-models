@@ -5,7 +5,7 @@
   "homepage": "https://moonshot.ai",
   "pricing_url": "https://platform.moonshot.ai/docs/pricing",
   "currency": "USD",
-  "verified_at": "2026-09-12",
+  "verified_at": "2026-09-20",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -26,7 +26,8 @@
       "item": "kimi-k2-thinking",
       "unit": "1M tokens",
       "input": 0.6,
-      "output": 2.5
+      "output": 2.5,
+      "cached_input": 0.15
     },
     {
       "item": "kimi-k2-0905",
@@ -37,9 +38,9 @@
     {
       "item": "kimi-k2.7-code",
       "unit": "1M tokens",
-      "input": 0.71,
-      "output": 3.5,
-      "cached_input": 0.15
+      "input": 0.7062,
+      "output": 3.21,
+      "cached_input": 0.18
     },
     {
       "item": "kimi-k2.6",
@@ -51,9 +52,9 @@
     {
       "item": "kimi-k3",
       "unit": "1M tokens",
-      "input": 2.6481,
-      "output": 13.2827,
-      "cached_input": 0.3026
+      "input": 1.7,
+      "output": 8.5,
+      "cached_input": 0.17
     }
   ]
 }

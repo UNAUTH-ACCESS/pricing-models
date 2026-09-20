@@ -5,7 +5,7 @@
   "homepage": "https://llama.com",
   "pricing_url": "https://www.llama.com/",
   "currency": "USD",
-  "verified_at": "2026-09-12",
+  "verified_at": "2026-09-20",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -49,8 +49,8 @@
     {
       "item": "llama-4-maverick",
       "unit": "1M tokens",
-      "input": 0.2,
-      "output": 0.696
+      "input": 0.1875,
+      "output": 0.6525
     },
     {
       "item": "llama-3.1-70b-instruct",

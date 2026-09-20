@@ -5,7 +5,7 @@
   "homepage": "https://mistral.ai",
   "pricing_url": "https://mistral.ai/pricing",
   "currency": "USD",
-  "verified_at": "2026-09-12",
+  "verified_at": "2026-09-20",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [
@@ -24,8 +24,8 @@
     {
       "item": "mistral-small-3.2-24b-instruct",
       "unit": "1M tokens",
-      "input": 0.075,
-      "output": 0.2
+      "input": 0.0938,
+      "output": 0.25
     },
     {
       "item": "ministral-3b-2512",
@@ -102,13 +102,6 @@
       "input": 0.4,
       "output": 2,
       "cached_input": 0.04
-    },
-    {
-      "item": "mistral-large-2512",
-      "unit": "1M tokens",
-      "input": 0.5,
-      "output": 1.5,
-      "cached_input": 0.05
     },
     {
       "item": "mistral-medium-3-5",

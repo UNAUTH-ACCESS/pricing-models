@@ -5,7 +5,7 @@
   "homepage": "https://anthropic.com",
   "pricing_url": "https://www.anthropic.com/pricing",
   "currency": "USD",
-  "verified_at": "2026-09-12",
+  "verified_at": "2026-09-20",
   "source": "openrouter",
   "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
   "rates": [

@@ -1,6 +1,6 @@
 {
   "category": "llm",
-  "generated_at": "2026-09-12T22:52:07.998Z",
+  "generated_at": "2026-09-20T06:09:50.452Z",
   "providers": [
     {
       "provider": "Anthropic",
@@ -9,7 +9,7 @@
       "homepage": "https://anthropic.com",
       "pricing_url": "https://www.anthropic.com/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -127,7 +127,7 @@
       "homepage": "https://cohere.com",
       "pricing_url": "https://cohere.com/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -164,23 +164,23 @@
       "homepage": "https://deepseek.com",
       "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
+        {
+          "item": "deepseek-v4-flash",
+          "unit": "1M tokens",
+          "input": 0.0367,
+          "output": 0.0734,
+          "cached_input": 0.0073
+        },
         {
           "item": "deepseek-v4-flash-0731",
           "unit": "1M tokens",
           "input": 0.04,
           "output": 0.08,
-          "cached_input": 0.008
-        },
-        {
-          "item": "deepseek-v4-flash",
-          "unit": "1M tokens",
-          "input": 0.0657,
-          "output": 0.1313,
-          "cached_input": 0.0131
+          "cached_input": 0.016
         },
         {
           "item": "deepseek-v4.1-flash",
@@ -192,9 +192,9 @@
         {
           "item": "deepseek-v4-flash-vision-exp",
           "unit": "1M tokens",
-          "input": 0.22,
-          "output": 0.66,
-          "cached_input": 0.007
+          "input": 0.2156,
+          "output": 0.6468,
+          "cached_input": 0.0069
         },
         {
           "item": "deepseek-chat-v3.1",
@@ -208,12 +208,6 @@
           "unit": "1M tokens",
           "input": 0.25,
           "output": 1
-        },
-        {
-          "item": "deepseek-chat",
-          "unit": "1M tokens",
-          "input": 0.2574,
-          "output": 1.0287
         },
         {
           "item": "deepseek-v3.2",
@@ -236,6 +230,19 @@
           "cached_input": 0.135
         },
         {
+          "item": "deepseek-chat",
+          "unit": "1M tokens",
+          "input": 0.32,
+          "output": 0.89
+        },
+        {
+          "item": "deepseek-v4-pro",
+          "unit": "1M tokens",
+          "input": 0.4223,
+          "output": 0.8446,
+          "cached_input": 0.0352
+        },
+        {
           "item": "deepseek-r1-0528",
           "unit": "1M tokens",
           "input": 0.5,
@@ -245,9 +252,9 @@
         {
           "item": "deepseek-v4-pro-0813",
           "unit": "1M tokens",
-          "input": 0.5795,
-          "output": 1.7384,
-          "cached_input": 0.0193
+          "input": 0.66,
+          "output": 1.98,
+          "cached_input": 0.022
         },
         {
           "item": "deepseek-r1",
@@ -260,13 +267,6 @@
           "unit": "1M tokens",
           "input": 0.8,
           "output": 0.8
-        },
-        {
-          "item": "deepseek-v4-pro",
-          "unit": "1M tokens",
-          "input": 1.6,
-          "output": 3.2,
-          "cached_input": 0.135
         }
       ]
     },
@@ -277,16 +277,10 @@
       "homepage": "https://ai.google.dev",
       "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
-        {
-          "item": "gemma-4-26b-a4b-it",
-          "unit": "1M tokens",
-          "input": 0.042,
-          "output": 0.22
-        },
         {
           "item": "gemma-3-4b-it",
           "unit": "1M tokens",
@@ -305,6 +299,13 @@
           "input": 0.08,
           "output": 0.45,
           "cached_input": 0.04
+        },
+        {
+          "item": "gemma-4-26b-a4b-it",
+          "unit": "1M tokens",
+          "input": 0.09,
+          "output": 0.3,
+          "cached_input": 0.05
         },
         {
           "item": "gemma-4-31b-it",
@@ -422,13 +423,6 @@
           "cached_input": 0.125
         },
         {
-          "item": "gemini-2.5-pro-preview-05-06",
-          "unit": "1M tokens",
-          "input": 1.25,
-          "output": 10,
-          "cached_input": 0.125
-        },
-        {
           "item": "gemini-3.5-flash",
           "unit": "1M tokens",
           "input": 1.5,
@@ -472,7 +466,7 @@
       "homepage": "https://llama.com",
       "pricing_url": "https://www.llama.com/",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -516,8 +510,8 @@
         {
           "item": "llama-4-maverick",
           "unit": "1M tokens",
-          "input": 0.2,
-          "output": 0.696
+          "input": 0.1875,
+          "output": 0.6525
         },
         {
           "item": "llama-3.1-70b-instruct",
@@ -534,7 +528,7 @@
       "homepage": "https://mistral.ai",
       "pricing_url": "https://mistral.ai/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -553,8 +547,8 @@
         {
           "item": "mistral-small-3.2-24b-instruct",
           "unit": "1M tokens",
-          "input": 0.075,
-          "output": 0.2
+          "input": 0.0938,
+          "output": 0.25
         },
         {
           "item": "ministral-3b-2512",
@@ -633,13 +627,6 @@
           "cached_input": 0.04
         },
         {
-          "item": "mistral-large-2512",
-          "unit": "1M tokens",
-          "input": 0.5,
-          "output": 1.5,
-          "cached_input": 0.05
-        },
-        {
           "item": "mistral-medium-3-5",
           "unit": "1M tokens",
           "input": 1.5,
@@ -675,7 +662,7 @@
       "homepage": "https://moonshot.ai",
       "pricing_url": "https://platform.moonshot.ai/docs/pricing",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -696,7 +683,8 @@
           "item": "kimi-k2-thinking",
           "unit": "1M tokens",
           "input": 0.6,
-          "output": 2.5
+          "output": 2.5,
+          "cached_input": 0.15
         },
         {
           "item": "kimi-k2-0905",
@@ -707,9 +695,9 @@
         {
           "item": "kimi-k2.7-code",
           "unit": "1M tokens",
-          "input": 0.71,
-          "output": 3.5,
-          "cached_input": 0.15
+          "input": 0.7062,
+          "output": 3.21,
+          "cached_input": 0.18
         },
         {
           "item": "kimi-k2.6",
@@ -721,9 +709,9 @@
         {
           "item": "kimi-k3",
           "unit": "1M tokens",
-          "input": 2.6481,
-          "output": 13.2827,
-          "cached_input": 0.3026
+          "input": 1.7,
+          "output": 8.5,
+          "cached_input": 0.17
         }
       ]
     },
@@ -734,7 +722,7 @@
       "homepage": "https://openai.com",
       "pricing_url": "https://openai.com/api/pricing/",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -744,12 +732,6 @@
           "input": 0.03,
           "output": 0.13,
           "cached_input": 0.03
-        },
-        {
-          "item": "gpt-oss-120b",
-          "unit": "1M tokens",
-          "input": 0.037,
-          "output": 0.17
         },
         {
           "item": "gpt-5-nano",
@@ -771,6 +753,13 @@
           "input": 0.1,
           "output": 0.4,
           "cached_input": 0.025
+        },
+        {
+          "item": "gpt-oss-120b",
+          "unit": "1M tokens",
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.075
         },
         {
           "item": "gpt-4o-mini",
@@ -952,7 +941,7 @@
       "homepage": "https://qwen.ai",
       "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [
@@ -962,6 +951,12 @@
           "input": 0.03,
           "output": 0.13,
           "cached_input": 0.006
+        },
+        {
+          "item": "qwen3-30b-a3b-instruct-2507",
+          "unit": "1M tokens",
+          "input": 0.0481,
+          "output": 0.193
         },
         {
           "item": "qwen3.5-flash-02-23",
@@ -993,12 +988,6 @@
           "unit": "1M tokens",
           "input": 0.09,
           "output": 1.1
-        },
-        {
-          "item": "qwen3-30b-a3b-instruct-2507",
-          "unit": "1M tokens",
-          "input": 0.09,
-          "output": 0.3
         },
         {
           "item": "qwen3.6-35b-a3b",
@@ -1051,17 +1040,23 @@
           "output": 0.5
         },
         {
+          "item": "qwen3-14b",
+          "unit": "1M tokens",
+          "input": 0.12,
+          "output": 0.24
+        },
+        {
+          "item": "qwen3-vl-30b-a3b-instruct",
+          "unit": "1M tokens",
+          "input": 0.13,
+          "output": 0.52
+        },
+        {
           "item": "qwen3.8-flash",
           "unit": "1M tokens",
           "input": 0.15,
           "output": 0.47,
           "cached_input": 0.016
-        },
-        {
-          "item": "qwen3-vl-30b-a3b-instruct",
-          "unit": "1M tokens",
-          "input": 0.15,
-          "output": 0.6
         },
         {
           "item": "qwen3-next-80b-a3b-thinking",
@@ -1114,19 +1109,6 @@
           "cached_input": 0.1
         },
         {
-          "item": "qwen3.8-27b",
-          "unit": "1M tokens",
-          "input": 0.214,
-          "output": 2.55,
-          "cached_input": 0.15
-        },
-        {
-          "item": "qwen3-14b",
-          "unit": "1M tokens",
-          "input": 0.2275,
-          "output": 0.91
-        },
-        {
           "item": "qwen3-235b-a22b-thinking-2507",
           "unit": "1M tokens",
           "input": 0.23,
@@ -1143,6 +1125,12 @@
           "unit": "1M tokens",
           "input": 0.26,
           "output": 1.56
+        },
+        {
+          "item": "qwen-plus-2025-07-28",
+          "unit": "1M tokens",
+          "input": 0.26,
+          "output": 0.78
         }
       ]
     },
@@ -1153,7 +1141,7 @@
       "homepage": "https://x.ai",
       "pricing_url": "https://docs.x.ai/docs/models",
       "currency": "USD",
-      "verified_at": "2026-09-12",
+      "verified_at": "2026-09-20",
       "source": "openrouter",
       "notes": "Per-token rates as listed on OpenRouter; cross-check headline models against the provider's own pricing page.",
       "rates": [

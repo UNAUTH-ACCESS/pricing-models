@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:52:08.001Z",
+  "generated_at": "2026-09-20T06:09:50.455Z",
   "categories": {
     "llm": 10,
     "maps": 2,
@@ -8,6 +8,6 @@
     "vectors": 2
   },
   "providers": 19,
-  "rate_rows": 197,
+  "rate_rows": 195,
   "stale": []
 }
